@@ -1,0 +1,4 @@
+# Simple Dockerfile to serve static HTML
+FROM nginx:alpine
+
+COPY ./app /usr/share/nginx/html
